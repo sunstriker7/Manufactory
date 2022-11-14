@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "manufactory",
+  "version": "${version}",
+
+  "name": "Manufactory",
+  "description": "A 1.19.2 remake of IC2",
+  "authors": [
+    "Alex Trowell"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/manufactory/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.sunstriker7.manufactory.Manufactory"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

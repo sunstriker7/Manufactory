@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.sunstriker7.manufactory.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "ManufactoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
